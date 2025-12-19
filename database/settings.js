@@ -1,4 +1,4 @@
-const { DataTypes } = require('sequelize');
+Keith { DataTypes } = require('sequelize');
 const { database } = require('../settings'); 
 
 const SettingsDB = database.define('settings', {
@@ -76,13 +76,13 @@ async function getSettings() {
         // Fallback to default settings
         return {
             prefix: ".",
-            author: "Keith",
+            author: "Untamed",
             url: "https://files.catbox.moe/07dmp1.jpg",
             gurl: "https://github.com/Keithkeizzah/KEITH-MD",
             timezone: "Africa/Nairobi",
-            botname: "Keith-Md",
+            botname: "Untamed-Md",
             packname: "Keith-Md",
-            mode: "public",
+            mode: "Keith-Md",
            
             sessionName: "keith-md"
         };
